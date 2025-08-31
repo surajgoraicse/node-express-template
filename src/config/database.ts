@@ -1,5 +1,5 @@
-import RedisService from "@/services/redis.service";
 import { PrismaClient } from "../../generated/prisma";
+import RedisService from "../services/redis.service";
 import logger from "./logger";
 
 declare global {
@@ -23,6 +23,7 @@ export const db = global.prisma || new PrismaClient();
 
 db.$connect()
 	.then(() => {
+		console.log("db connected");
 		logger.info("[PRISMA] : connected to database");
 	})
 	.catch((error: string) => {
@@ -30,3 +31,4 @@ db.$connect()
 	});
 
 export const redis = global.redis || new RedisService();
+

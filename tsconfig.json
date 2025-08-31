@@ -23,11 +23,7 @@
         "rootDir": "./src",
         "incremental": true,
         "sourceMap": true,
-        "baseUrl": "./",
         "typeRoots": ["./node_modules/@types", "./src/@types"],
-        "paths": {
-            "@/*": ["src/*"]
-        },
         "types": ["node", "express"]
     },
     "include": ["src", "src/types"],

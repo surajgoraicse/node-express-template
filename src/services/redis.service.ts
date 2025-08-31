@@ -1,5 +1,5 @@
-import logger from "@/config/logger";
 import Redis from "ioredis";
+import logger from "../config/logger";
 
 class RedisService {
 	private client: Redis;
@@ -82,7 +82,7 @@ class RedisService {
 				return true;
 			} else {
 				logger.warn(`[REDIS] key ${key} not found for deletion `);
-                return false
+				return false;
 			}
 		} catch (error) {
 			logger.error(
@@ -107,5 +107,4 @@ class RedisService {
 	}
 }
 
-
-export default RedisService
+export default RedisService;

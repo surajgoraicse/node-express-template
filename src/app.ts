@@ -3,8 +3,10 @@ import cors from "cors";
 import morgan from "morgan";
 import helmet from "helmet";
 import router from "./routers";
+import handleError from "./middlewares/handleError.middleware";
 
 const app = express();
+
 
 app.use(express.json({ limit: "500kb" }));
 app.use(express.urlencoded({ extended: true }));
@@ -13,5 +15,7 @@ app.use(morgan("dev"));
 app.use(helmet());
 
 app.use("/api", router);
+
+app.use(handleError);
 
 export default app;

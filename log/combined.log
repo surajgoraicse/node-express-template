@@ -17,3 +17,21 @@
 [2025-08-31 11:51:43.694] info: Server is running at http://localhost:4000
 [2025-08-31 11:51:44.887] info: Server is running at http://localhost:4000
 [2025-08-31 12:03:53.300] info: Server is running at http://localhost:4000
+[2025-08-31 03:09:43.996] info: Server is running at http://localhost:4000
+[2025-08-31 03:11:56.513] info: Server is running at http://localhost:4000
+[2025-08-31 03:14:22.472] info: Server is running at http://localhost:4000
+[2025-08-31 03:14:27.187] info: Server is running at http://localhost:4000
+[2025-08-31 03:14:29.287] info: Server is running at http://localhost:4000
+[2025-08-31 03:14:30.323] error: [SERVER] error  some error
+[2025-08-31 03:17:00.404] info: Server is running at http://localhost:4000
+[2025-08-31 03:17:04.080] info: Server is running at http://localhost:4000
+[2025-08-31 03:17:04.886] info: Server is running at http://localhost:4000
+[2025-08-31 03:17:06.776] info: Server is running at http://localhost:4000
+[2025-08-31 03:17:10.299] info: Server is running at http://localhost:4000
+[2025-08-31 03:17:19.065] info: Server is running at http://localhost:4000
+[2025-08-31 03:17:21.571] info: Server is running at http://localhost:4000
+[2025-08-31 03:17:27.758] info: Server is running at http://localhost:4000
+[2025-08-31 03:36:03.102] info: Server is running at http://localhost:4000
+[2025-08-31 03:36:03.117] info: [REDIS] Connected to Redis
+[2025-08-31 03:36:03.167] info: [PRISMA] : connected to database
+[2025-08-31 03:36:12.681] info: Server is running at http://localhost:4000
