@@ -1,7 +1,0 @@
-import { Router } from "express";
-const router = Router();
-router.get("/", (_req, res) => {
-    return res.status(200).json({ success: true, message: "this is user route" });
-});
-export default router;
-//# sourceMappingURL=index.js.map

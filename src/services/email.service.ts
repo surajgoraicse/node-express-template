@@ -1,5 +1,5 @@
 import nodemailer, { type Transporter } from "nodemailer";
-import {type EmailInterface } from "../@types/email.js";
+import {type EmailInterface } from "../@types/email.d.js";
 import APIError from "../utils/APIError.js";
 import logger from "@/config/logger.js";
 

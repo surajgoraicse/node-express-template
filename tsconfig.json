@@ -25,7 +25,7 @@
 		"incremental": true,
 		"sourceMap": true,
 		"typeRoots": ["./node_modules/@types", "./src/@types"],
-		"types": ["node", "express"],
+		"types": ["node", "express", "vitest/globals"],
 		"exactOptionalPropertyTypes": true,
 
 		// paht aliases

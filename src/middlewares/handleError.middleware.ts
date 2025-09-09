@@ -3,7 +3,7 @@ import logger from "@/config/logger.js";
 import APIError from "@/utils/APIError.js";
 
 const handleError = (
-	err: APIError,
+	err: APIError, // check if this type will break in case of system error.
 	_req: Request,
 	res: Response,
 	_next: NextFunction

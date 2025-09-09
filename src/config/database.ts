@@ -1,10 +1,10 @@
-import { PrismaClient } from "../../generated/prisma/index.js";
-import RedisService from "../services/redis.service.js";
-import logger from "./logger.js";
+import { PrismaClient } from '../../generated/prisma/index.js';
+import RedisService from '../services/redis.service.js';
+import logger from './logger.js';
 
 declare global {
-	var prisma: PrismaClient;
-	var redis: RedisService;
+  var prisma: PrismaClient;
+  var redis: RedisService;
 }
 // In development with hot-reloading (e.g., Next.js, Nodemon, Vite), new objects get re-created on every restart, which can cause:
 
@@ -22,13 +22,11 @@ declare global {
 export const db = global.prisma || new PrismaClient();
 
 db.$connect()
-	.then(() => {
-		console.log("db connected");
-		logger.info("[PRISMA] : connected to database");
-	})
-	.catch((error: string) => {
-		logger.error("[PRISMA] : failed to connect database : ", error);
-	});
+  .then(() => {
+    logger.info('[PRISMA] : connected to database');
+  })
+  .catch((error: string) => {
+    logger.error('[PRISMA] : failed to connect database : ', error);
+  });
 
 export const redis = global.redis || new RedisService();
-
