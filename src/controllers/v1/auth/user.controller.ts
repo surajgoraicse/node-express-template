@@ -5,7 +5,7 @@ import emailService from '@/services/email.service.js';
 import otpService from '@/services/otp.service.js';
 import { AccountType, generateTokens } from '@/services/token.service.js';
 import userService from '@/services/user.service.js';
-import { hashPassword } from '@/tools/encryption.js';
+import { hashPassword, verifyHashedPassword } from '@/tools/encryption.js';
 import APIError from '@/utils/APIError.js';
 import APIResponse from '@/utils/APIResponse.js';
 import catchAsync from '@/utils/async.handler.js';
@@ -69,7 +69,6 @@ const verifyRegistration = catchAsync(async (req: Request, res: Response) => {
   const parsedUser = JSON.parse(user_data);
   const isVerified = await otpService.verifyOtp(email, otp);
 
-
   if (!isVerified) {
     throw new APIError(400, 'Invalid OTP');
   }
@@ -95,7 +94,6 @@ const verifyRegistration = catchAsync(async (req: Request, res: Response) => {
   // clean up redis data after registration
   await redis.deleteValue(`register:${email}`);
 
-
   res.status(201).json(
     new APIResponse(201, 'User Created Successfully', {
       token: { accessToken, refreshToken },
@@ -104,7 +102,38 @@ const verifyRegistration = catchAsync(async (req: Request, res: Response) => {
   return;
 });
 
+const login = catchAsync(async (req: Request, res: Response) => {
+  const { email, password } = req.body;
+  if (!email || !password) {
+    throw new APIError(400, 'Email and Password are required.');
+  }
+  const user = await userService.getUserByEmail(email);
+  if (!user) {
+    throw new APIError(400, 'User not found.');
+  }
+  const isPasswordCorrect = await verifyHashedPassword(user.password, password);
+  if (!isPasswordCorrect) {
+    throw new APIError(400, 'Incorrect Password.');
+  }
+  const jti = uuidv4();
+  const token = generateTokens({
+    accountType: AccountType.USER,
+    id: user.id,
+    jti: jti,
+  });
+  console.log(token);
+
+  res.status(200).json(
+    new APIResponse(200, 'User logged in Successfully', {
+      token: token,
+      user: { id: user.id, email: user.email, fullName: user.fullName },
+    })
+  );
+  return;
+});
+
 export default {
   initRegister,
   verifyRegistration,
+  login,
 };
