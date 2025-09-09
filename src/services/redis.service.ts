@@ -1,5 +1,5 @@
-import Redis from "ioredis";
-import logger from "../config/logger";
+import { Redis } from "ioredis";
+import logger from "../config/logger.js";
 
 class RedisService {
 	private client: Redis;

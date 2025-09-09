@@ -1,7 +1,7 @@
 class APIResponse {
+	success = true;
 	constructor(
 		public statusCode: number,
-		public success: boolean,
 		public message: string,
 		public data: unknown = []
 	) {}

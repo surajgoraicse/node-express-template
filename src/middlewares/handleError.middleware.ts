@@ -1,12 +1,12 @@
-import { Response, Request, NextFunction } from "express";
-import logger from "../config/logger";
-import APIError from "../utils/APIError";
+import type { Response, Request, NextFunction } from "express";
+import logger from "@/config/logger.js";
+import APIError from "@/utils/APIError.js";
 
 const handleError = (
 	err: APIError,
-	req: Request,
+	_req: Request,
 	res: Response,
-	next: NextFunction
+	_next: NextFunction
 ) => {
 	const errorResponse: APIError = {
 		statusCode: err.statusCode || 500,

@@ -2,10 +2,10 @@ class APIError extends Error {
 	success = false;
 
 	constructor(
-		public message: string = "Something went wrong",
 		public statusCode: number,
+		public message: string = "Something went wrong",
+		public errors: unknown =  [],
 		public data: any = [],
-		public errors: Error | string | string[] = []
 	) {
 		super(message);
 		// Capture stack trace at the point where an object is created from this class

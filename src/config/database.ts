@@ -1,6 +1,6 @@
-import { PrismaClient } from "../../generated/prisma";
-import RedisService from "../services/redis.service";
-import logger from "./logger";
+import { PrismaClient } from "../../generated/prisma/index.js";
+import RedisService from "../services/redis.service.js";
+import logger from "./logger.js";
 
 declare global {
 	var prisma: PrismaClient;

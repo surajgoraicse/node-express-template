@@ -3,12 +3,13 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"dev": "cross-env NODE_ENV=development nodemon  src/index.ts",
-		"build": "tsc",
+		"dev": "cross-env NODE_ENV=development tsx watch  src/index.ts",
+		"build": "tsc -p tsconfig.json && tsc-alias ",
 		"postbuild": "npm prune --production",
 		"start": "cross-env NODE_ENV=production node  dist/index.js"
 	},
 	"keywords": [],
+	"type": "module",
 	"author": "",
 	"license": "ISC",
 	"description": "",
@@ -25,8 +26,6 @@
 		"morgan": "^1.10.0",
 		"multer": "^2.0.2",
 		"nodemailer": "^7.0.5",
-		"ts-node": "^10.9.2",
-		"typescript": "^5.8.3",
 		"winston": "^3.17.0",
 		"zod": "^3.25.67"
 	},
@@ -38,7 +37,9 @@
 		"@types/multer": "^2.0.0",
 		"@types/node": "^24.3.0",
 		"@types/nodemailer": "^7.0.0",
-		"nodemon": "^3.1.10",
-		"prisma": "^6.8.2"
+		"prisma": "^6.8.2",
+		"tsc-alias": "^1.8.16",
+		"tsx": "^4.20.5",
+		"typescript": "^5.9.2"
 	}
 }

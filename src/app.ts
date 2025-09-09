@@ -2,8 +2,8 @@ import express from "express";
 import cors from "cors";
 import morgan from "morgan";
 import helmet from "helmet";
-import router from "./routers";
-import handleError from "./middlewares/handleError.middleware";
+import router from "./routers/index.js";
+import handleError from "./middlewares/handleError.middleware.js";
 
 const app = express();
 
