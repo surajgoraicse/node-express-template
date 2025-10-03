@@ -1,0 +1,121 @@
+[2025-08-31 03:14:30.323] error: [SERVER] error  some error
+[2025-09-09 09:09:49.465] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:49.516] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:49.518] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-09-09 09:09:49.618] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:49.769] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:49.970] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:50.221] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:50.521] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:50.873] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:51.274] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:51.725] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:52.227] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:52.778] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:53.379] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:54.031] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:54.733] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:55.484] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:56.286] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:57.138] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:58.040] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:58.991] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:09:59.992] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:10:01.043] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:10:02.145] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:10:03.297] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:42.395] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:42.447] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:42.452] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-09-09 11:57:42.548] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:42.699] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:42.900] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:43.151] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:43.452] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:43.803] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:44.204] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:44.655] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:45.157] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 11:57:45.708] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 12:23:45.261] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:25:24.803] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:26:33.185] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:28:00.848] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:29:59.055] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:30:32.765] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:32:56.195] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:33:24.484] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:54:11.211] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:57:29.496] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 12:57:42.604] error: [SERVER] error  Failed to save otp in redis
+[2025-09-09 01:02:58.247] error: [SERVER] error  Expected "options" to be a plain object.
+[2025-09-09 01:07:01.724] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:07:03.529] error: [SERVER] error  Registration session expired or not found
+[2025-09-09 01:07:17.999] error: [SERVER] error  User Email already exists
+[2025-09-09 01:07:23.837] error: [SERVER] error  User Email already exists
+[2025-09-09 01:07:54.336] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:07:54.990] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:07:58.088] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:08:02.035] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:08:02.775] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:08:08.028] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:08:15.859] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:09:01.506] error: [SERVER] error  Expected "options" to be a plain object.
+[2025-09-09 01:18:27.026] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-09-09 01:18:48.691] error: [SERVER] error  [TOKEN_SERVICE] JWT Token creation failed
+[2025-09-09 01:55:59.158] error: [SERVER] error  User Email already exists
+[2025-09-09 08:59:53.422] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 08:59:53.474] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 08:59:53.495] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-09-09 08:59:54.041] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 08:59:54.104] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-09-09 08:59:54.104] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:00:00.379] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:00:00.434] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-09-09 09:00:00.435] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:00:01.043] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:00:01.102] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-09-09 09:00:01.103] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:00:14.379] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-09 09:00:14.423] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-09-09 09:00:14.440] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:45.439] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:45.489] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:45.495] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-09-29 05:12:45.590] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:45.742] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:45.943] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:46.195] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:46.496] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:46.848] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:47.249] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-29 05:12:47.700] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-09-30 02:55:37.995] error: [EMAIL] Service :  Error: getaddrinfo EAI_AGAIN smtp.gmail.com
+[2025-10-01 06:35:54.247] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-10-01 06:35:54.298] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-10-01 06:35:54.315] error: [PRISMA] : failed to connect database :  Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-01 06:35:54.399] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-10-01 06:35:54.550] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-10-01 06:35:54.751] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-10-01 06:35:55.003] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-10-01 06:35:55.304] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-10-01 06:35:55.655] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379
+[2025-10-01 06:35:56.056] error: [REDIS] Failed to Connect to Redis connect ECONNREFUSED 127.0.0.1:6379

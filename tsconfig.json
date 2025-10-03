@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    // Target and module settings
+    "target": "ES2022",                  // Specify ECMAScript target version
+    "module": "nodenext",                // Use Node.js ESM module resolution
+    "lib": ["ES2022"],                   // Include standard library definitions for ES2022
+    "moduleResolution": "nodenext",      // Module resolution strategy
+
+    // Strict type-checking options
+    "strict": true,                      // Enable all strict type-checking options
+    "noImplicitAny": true,               // Raise error on expressions with an implied "any" type
+    "strictNullChecks": true,            // Ensure null and undefined are handled correctly
+    "strictFunctionTypes": true,         // Check function type compatibility strictly
+    "strictBindCallApply": true,         // Check binding, calling, and applying functions strictly
+    "noImplicitThis": true,              // Raise error on 'this' expressions with an implicit 'any'
+    "noImplicitOverride": true,          // Ensure class methods with 'override' are correctly annotated
+    "exactOptionalPropertyTypes": true,  // Treat optional property types exactly as declared
+
+    // File checks
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file name casing
+    "noUnusedLocals": true,                     // Report unused local variables
+    "noUnusedParameters": true,                 // Report unused function parameters
+    "noFallthroughCasesInSwitch": true,        // Report fallthrough cases in switch statements
+    "skipLibCheck": true,                       // Skip type-checking of declaration files
+
+    // Module interop
+    "esModuleInterop": true,              // Enable compatibility with CommonJS modules
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules without default export
+    "resolveJsonModule": true,            // Allow importing JSON files as modules
+    "verbatimModuleSyntax": true,         // Keep import/export syntax as written
+
+    // Project structure
+    "rootDir": "./src",                   // Root directory of source files
+    "outDir": "./dist",                   // Output directory for compiled files
+    "incremental": true,                  // Enable incremental compilation
+    "sourceMap": true,                    // Generate source maps
+    "isolatedModules": true,              // Ensure each file can be transpiled independently
+    "typeRoots": ["./node_modules/@types", "./src/@types"], // Specify type declaration folders
+    "types": ["node", "express"],         // Include types for Node.js and Express
+
+    // PATH aliases
+    "baseUrl": "./src",                   // Base directory for module resolution
+    "paths": {
+      "@/*": ["*"]                        // Alias '@/' to 'src/' folder
+    }
+  },
+
+  // Files to include in compilation
+  "include": ["src", "src/@types"],
+
+  // Files/folders to exclude from compilation
+  "exclude": ["node_modules", "dist"]
+}
