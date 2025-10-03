@@ -1,0 +1,136 @@
+[2025-10-02 09:54:12.949] info: Environment Configuration Loaded
+[2025-10-02 09:54:13.040] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-02 09:54:24.768] info: Environment Configuration Loaded
+[2025-10-02 09:54:24.824] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-02 09:54:26.647] info: Environment Configuration Loaded
+[2025-10-02 09:54:26.703] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-02 09:54:27.464] info: Environment Configuration Loaded
+[2025-10-02 09:54:27.522] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-02 09:55:10.803] info: Environment Configuration Loaded
+[2025-10-02 09:55:10.876] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-02 09:55:10.881] info: Server is listening at port 3000
+[2025-10-02 09:55:10.883] info: [REDIS] Connected to Redis
+[2025-10-03 11:26:53.630] info: Environment Configuration Loaded
+[2025-10-03 11:26:53.705] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:26:53.711] info: Server is listening at port 3000
+[2025-10-03 11:26:53.713] info: [REDIS] Connected to Redis
+[2025-10-03 11:29:27.877] info: Environment Configuration Loaded
+[2025-10-03 11:29:27.937] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:29:27.942] info: Server is listening at port 
+[2025-10-03 11:29:27.944] info: [REDIS] Connected to Redis
+[2025-10-03 11:29:29.595] info: Environment Configuration Loaded
+[2025-10-03 11:29:29.654] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:29:29.659] info: Server is listening at port $
+[2025-10-03 11:29:29.661] info: [REDIS] Connected to Redis
+[2025-10-03 11:29:30.655] info: Environment Configuration Loaded
+[2025-10-03 11:29:30.717] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:29:32.438] info: Environment Configuration Loaded
+[2025-10-03 11:29:32.501] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:29:32.506] info: Server is listening at port 4000
+[2025-10-03 11:29:32.508] info: [REDIS] Connected to Redis
+[2025-10-03 11:29:32.839] info: Environment Configuration Loaded
+[2025-10-03 11:29:32.898] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:29:32.903] info: Server is listening at port 4000
+[2025-10-03 11:29:32.905] info: [REDIS] Connected to Redis
+[2025-10-03 11:29:33.843] info: Environment Configuration Loaded
+[2025-10-03 11:29:33.904] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:29:33.909] info: Server is listening at port 4000
+[2025-10-03 11:29:33.911] info: [REDIS] Connected to Redis
+[2025-10-03 11:29:35.833] info: Environment Configuration Loaded
+[2025-10-03 11:29:35.901] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:29:35.906] info: Server is listening at port 4000
+[2025-10-03 11:29:35.909] info: [REDIS] Connected to Redis
+[2025-10-03 11:30:29.097] info: Environment Configuration Loaded
+[2025-10-03 11:30:29.158] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:30:29.163] info: Server is listening at port 4000
+[2025-10-03 11:30:29.165] info: [REDIS] Connected to Redis
+[2025-10-03 11:30:39.933] info: Environment Configuration Loaded
+[2025-10-03 11:30:39.993] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:30:39.998] info: Server is listening at port 4000
+[2025-10-03 11:30:40.000] info: [REDIS] Connected to Redis
+[2025-10-03 11:30:43.479] info: Environment Configuration Loaded
+[2025-10-03 11:30:43.538] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:30:43.543] info: Server is listening at port 4000
+[2025-10-03 11:30:43.545] info: [REDIS] Connected to Redis
+[2025-10-03 11:52:17.295] info: Environment Configuration Loaded
+[2025-10-03 11:52:17.378] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:52:17.383] info: Server is listening at port 4000
+[2025-10-03 11:52:17.385] info: [REDIS] Connected to Redis
+[2025-10-03 11:52:18.115] info: Environment Configuration Loaded
+[2025-10-03 11:52:18.196] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:52:18.201] info: Server is listening at port 4000
+[2025-10-03 11:52:18.202] info: [REDIS] Connected to Redis
+[2025-10-03 11:52:24.544] info: Environment Configuration Loaded
+[2025-10-03 11:52:24.628] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:52:24.633] info: Server is listening at port 4000
+[2025-10-03 11:52:24.634] info: [REDIS] Connected to Redis
+[2025-10-03 11:56:02.775] info: Environment Configuration Loaded
+[2025-10-03 11:56:02.871] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:56:02.877] info: Server is listening at port 4000
+[2025-10-03 11:56:02.880] info: [REDIS] Connected to Redis
+[2025-10-03 11:57:34.165] info: Environment Configuration Loaded
+[2025-10-03 11:57:34.277] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 11:57:34.282] info: Server is listening at port 4000
+[2025-10-03 11:57:34.284] info: [REDIS] Connected to Redis
+[2025-10-03 11:57:35.923] info: [EMAIL] connected to service
+[2025-10-03 11:57:41.954] error: [SERVER] error  Cannot destructure property 'email' of 'req.body' as it is undefined.
+[2025-10-03 12:01:55.051] info: Environment Configuration Loaded
+[2025-10-03 12:01:55.171] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 12:01:55.175] info: Server is listening at port 4000
+[2025-10-03 12:01:55.177] info: [REDIS] Connected to Redis
+[2025-10-03 12:01:56.219] info: Environment Configuration Loaded
+[2025-10-03 12:01:56.329] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 12:01:56.334] info: Server is listening at port 4000
+[2025-10-03 12:01:56.335] info: [REDIS] Connected to Redis
+[2025-10-03 12:01:57.116] info: Environment Configuration Loaded
+[2025-10-03 12:01:57.228] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 12:01:57.232] info: Server is listening at port 4000
+[2025-10-03 12:01:57.234] info: [REDIS] Connected to Redis
+[2025-10-03 12:01:58.726] info: [EMAIL] connected to service
+[2025-10-03 12:01:59.443] info: Environment Configuration Loaded
+[2025-10-03 12:01:59.555] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 12:01:59.559] info: Server is listening at port 4000
+[2025-10-03 12:01:59.561] info: [REDIS] Connected to Redis
+[2025-10-03 12:02:01.036] info: [EMAIL] connected to service
+[2025-10-03 12:02:07.286] info: Environment Configuration Loaded
+[2025-10-03 12:02:07.455] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 12:02:07.461] info: Server is listening at port 4000
+[2025-10-03 12:02:07.463] info: [REDIS] Connected to Redis
+[2025-10-03 12:02:09.037] info: Environment Configuration Loaded
+[2025-10-03 12:02:09.146] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 12:02:09.150] info: Server is listening at port 4000
+[2025-10-03 12:02:09.152] info: [REDIS] Connected to Redis
+[2025-10-03 12:02:10.619] info: [EMAIL] connected to service
+[2025-10-03 12:02:43.850] warn: [USER_SERVICE] User not found with email suraj2@gmail.com 
+[2025-10-03 12:02:43.894] debug: i am here..
+[2025-10-03 12:02:43.894] debug: [OTP SERVICE] otp store in redis
+[2025-10-03 12:02:47.325] debug: mail successfully sent
+[2025-10-03 12:02:47.326] debug: otp : 
+[2025-10-03 12:03:35.856] error: [SERVER] error  [USER_SCHEMA] : User Creation Failed Server Error  
+[2025-10-03 12:04:33.760] info: Environment Configuration Loaded
+[2025-10-03 12:04:33.872] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 12:04:33.877] info: Server is listening at port 4000
+[2025-10-03 12:04:33.879] info: [REDIS] Connected to Redis
+[2025-10-03 12:04:34.606] info: Environment Configuration Loaded
+[2025-10-03 12:04:35.579] info: Environment Configuration Loaded
+[2025-10-03 12:04:35.690] info: [PRISMA] : Connected to PostgreSQL database.
+[2025-10-03 12:04:35.695] info: Server is listening at port 4000
+[2025-10-03 12:04:35.697] info: [REDIS] Connected to Redis
+[2025-10-03 12:04:37.203] info: [EMAIL] connected to service
+[2025-10-03 12:04:48.281] warn: [USER_SERVICE] User not found with email suraj2@gmail.com 
+[2025-10-03 12:04:48.320] debug: i am here..
+[2025-10-03 12:04:48.321] debug: [OTP SERVICE] otp store in redis
+[2025-10-03 12:04:52.258] debug: mail successfully sent
+[2025-10-03 12:04:52.258] debug: otp : 
+[2025-10-03 12:05:04.553] info: [USER_SERVICE] : User Created Successfully with ID : 1a739831-56c9-4e09-8af5-9d1597f0d329
+[2025-10-03 12:06:15.220] info: [USER SERVICE] User retrieved successfully with email: suraj2@gmail.com 
+[2025-10-03 12:07:38.257] info: [USER SERVICE] User retrieved successfully with email: suraj2@gmail.com 
+[2025-10-03 12:07:38.258] error: [SERVER] error  User is already verified, cannot resend OTP

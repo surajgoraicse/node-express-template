@@ -1,0 +1,52 @@
+name: Node_Starter
+
+x-logging: &default-logging
+    driver: "json-file"
+    options:
+        max-file: "5"
+        max-size: "10m"
+services:
+    # server:
+    #     build:
+    #         context: .
+    #     environment:
+    #         NODE_ENV: production
+    #         REDIS_HOST: redis
+    #         REDIS_PORT: 6379
+    #     ports:
+    #         - "127.0.0.1:3000:3000"
+    #     logging: *default-logging
+    #     depends_on:
+    #         - redis
+
+    postgres:
+        image: postgres
+        container_name: postgres
+        environment:
+            POSTGRES_USER: surajgoraicse
+            POSTGRES_PASSWORD: surajgoraicse
+            POSTGRES_DB: test_db
+        ports:
+            - "5432:5432"
+        volumes:
+            - postgres:/var/lib/postgresql/data
+        logging: *default-logging
+        networks:
+            - my-network
+
+    redis:
+        image: redis:latest
+        ports:
+            - "127.0.0.1:6379:6379"
+        volumes:
+          - redis:/data
+        logging: *default-logging
+        command: redis-server --appendonly yes
+
+volumes:
+    postgres:
+    redis:
+
+networks:
+    my-network:
+        driver: bridge

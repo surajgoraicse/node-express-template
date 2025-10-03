@@ -1,0 +1,15 @@
+[2025-10-02 09:54:13.040] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-02 09:54:24.824] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-02 09:54:26.703] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-02 09:54:27.522] error: [PRISMA] : Failed to connect to PostgreSQL: Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+[2025-10-03 11:57:41.954] error: [SERVER] error  Cannot destructure property 'email' of 'req.body' as it is undefined.
+[2025-10-03 12:03:35.856] error: [SERVER] error  [USER_SCHEMA] : User Creation Failed Server Error  
+[2025-10-03 12:07:38.258] error: [SERVER] error  User is already verified, cannot resend OTP
